@@ -5,11 +5,11 @@ const Footer: React.FC = () => {
     <footer className="dark:bg-gray-900 flex flex-col items-center mt-8 w-full" style={{ backgroundColor: '#8a191c' }}>
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
+        <div className="mb-6 md:mb-0 flex justify-center">
             <a href="#" className="flex items-center">
-              <img src="./footer.png" className="h-8 me-3" alt="FlowBite Logo" style={{ width: '250px', height: '100px' }}/>
+                <img src="./footer.png" className="h-8 me-3" alt="FlowBite Logo" style={{ width: '250px', height: '100px' }}/>
             </a>
-          </div>
+            </div>
 
           <div className="mb-6 md:mb-0">
             <table className="table-auto border-collapse w-full">
@@ -22,12 +22,12 @@ const Footer: React.FC = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-black py-1 px-2 font-bold">Monday - Friday</td>
-                  <td className="border border-black py-1 px-2">9am - 5pm</td>
+                  <td className="border border-black py-1 px-2 font-bold hover:text-white">Monday - Friday</td>
+                  <td className="border border-black py-1 px-2 hover:text-white">9am - 5pm</td>
                 </tr>
                 <tr>
-                  <td className="border border-black py-1 px-2 font-bold">Saturday & Sunday</td>
-                  <td className="border border-black py-1 px-2">Closed</td>
+                  <td className="border border-black py-1 px-2 font-bold hover:text-white">Saturday & Sunday</td>
+                  <td className="border border-black py-1 px-2 hover:text-white">Closed</td>
                 </tr>
               </tbody>
             </table>
@@ -36,11 +36,11 @@ const Footer: React.FC = () => {
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-white font-bold">Resources & Tools</h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-100 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">Insights</a>
                 </li>
-                <li>
+                <li className="mb-4">
                   <a href="#" className="hover:underline">Salary Guide</a>
                 </li>
                 <li>
@@ -50,25 +50,25 @@ const Footer: React.FC = () => {
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-white font-bold">Services</h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-100 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Consultation Services</a>
                 </li>
-                <li>
+                <li className="mb-4">
                   <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Customer Support</a>
                 </li>
               </ul>
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-white font-bold">Useful Links</h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-100 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">Non-Disclosure Agreement </a>
                 </li>
-                <li>
+                <li className="mb-4">
                   <a href="#" className="hover:underline">Our Recruitment Process</a>
                 </li>
-                <li>
+                <li className="mb-4">
                   <a href="#" className="hover:underline">Jobs</a>
                 </li>
               </ul>
@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm sm:text-center dark:text-gray-400 text-white font-bold">© 2024 <a href="#" className="hover:underline">Omil Staffing Services™</a>. All Rights Reserved.
+          <span className="text-sm sm:text-center dark:text-gray-400 text-white font-bold">© 2024 <a href="#" className="hover:underline">Omil Staffing Services</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0 text-white font-bold">
             <a href="#" className="hover:text-gray-900 dark:hover:text-white">
