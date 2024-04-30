@@ -5,6 +5,7 @@ import WhyOmil from '../components/WhyOmil';
 import Founder from '../components/Founder';
 import FloatingVideo from '../components/FloatingVideo';
 import Partners from '@/components/Patners';
+import Footer from '@/components/Footer';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Founder />
         <FloatingVideo />
         <Partners />
+        <Footer />
         
       </main>
     </div>

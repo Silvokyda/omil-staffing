@@ -1,31 +1,38 @@
 "use client";
+
 import React, { useEffect, useState } from 'react';
 
 const FloatingVideo = () => {
   const [isFloating, setIsFloating] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const bottomThreshold = window.innerHeight * 0.2; // Adjust this value as needed
-      const isPastThreshold = window.scrollY > bottomThreshold;
-      setIsFloating(isPastThreshold);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    const hasClosed = localStorage.getItem('videoClosed');
+    if (hasClosed === 'true') {
+      setIsFloating(false);
+    } else {
+      const handleScroll = () => {
+        const bottomThreshold = window.innerHeight * 0.2; 
+        const isPastThreshold = window.scrollY > bottomThreshold;
+        setIsFloating(isPastThreshold);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
   }, []);
 
   const handleClose = () => {
     setIsFloating(false);
+    localStorage.setItem('videoClosed', 'true');
   };
 
   return (
     <div className={`fixed bottom-0 right-0 ${isFloating ? 'right-0' : ''} mb-4 ml-4 z-50`}>
       {isFloating && (
         <div className="relative">
-          <button className="absolute top-0 right-0 p-2 text-white" onClick={handleClose}>
+          <button className="absolute -top-5 right-0 p-2 text-white" onClick={handleClose}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
