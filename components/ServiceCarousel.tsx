@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = [
   {
-    title: 'Service 1',
+    title: 'Resume Services',
     image: 'https://s7d9.scene7.com/is/image/roberthalfintl/h5_1477775195_5000x1880:Large-1x?ox&fmt=webp-alpha',
     description: 'Description of Service 1',
     link: '#', // Add the link for "Read More"
