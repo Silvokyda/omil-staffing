@@ -49,12 +49,6 @@ module.exports = {
       lightblue: "#cee4f5",
       teal: "#4CCD99",
     },
-    // screens: {
-    //   "2xsm": "375px",
-    //   xsm: "425px",
-    //   "3xl": "2000px",
-    //   ...defaultTheme.screens,
-    // },
     extend: {
       fontSize: {
         "title-xxl": ["44px", "55px"],
