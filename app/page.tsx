@@ -5,6 +5,7 @@ import Founder from '../components/Founder';
 import FloatingVideo from '../components/FloatingVideo';
 import Partners from '@/components/Patners';
 import Hero from "@/components/Hero";
+import ProductPitch from "@/components/ProductPitch";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <div>
       <main className="flex w-full min-h-screen flex-col items-center justify-between">
           <Hero />
+          <ProductPitch />
         {/*<ServiceCarousel />*/}
         <WhyOmil />
         <Founder />
