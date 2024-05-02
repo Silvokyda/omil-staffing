@@ -9,6 +9,8 @@ import ProductPitch from "@/components/ProductPitch";
 import HowItWorks from "@/components/HowItWorks";
 import HiringTrends from "@/components/HiringTrends";
 import FindTalent from "@/components/FindTalent";
+import ConsultingSolutions from "@/components/ConsoltingSolutions";
+import CareerMove from "@/components/CareerMove";
 
 
 export default function Home() {
@@ -20,6 +22,8 @@ export default function Home() {
           <HowItWorks />
           <HiringTrends />
           <FindTalent />
+          <ConsultingSolutions />
+          <CareerMove />
         {/*<ServiceCarousel />*/}
         {/*<WhyOmil />*/}
         {/*<Founder />*/}
