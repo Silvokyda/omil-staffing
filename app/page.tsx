@@ -7,6 +7,8 @@ import Partners from '@/components/Patners';
 import Hero from "@/components/Hero";
 import ProductPitch from "@/components/ProductPitch";
 import HowItWorks from "@/components/HowItWorks";
+import HiringTrends from "@/components/HiringTrends";
+import FindTalent from "@/components/FindTalent";
 
 
 export default function Home() {
@@ -16,11 +18,13 @@ export default function Home() {
           <Hero />
           <ProductPitch />
           <HowItWorks />
+          <HiringTrends />
+          <FindTalent />
         {/*<ServiceCarousel />*/}
-        <WhyOmil />
-        <Founder />
+        {/*<WhyOmil />*/}
+        {/*<Founder />*/}
         <FloatingVideo />
-        <Partners />
+        {/*<Partners />*/}
       </main>
     </div>
   );
