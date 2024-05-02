@@ -1,8 +1,9 @@
 import Link from "next/link";
+import SearchBar from "@/components/SearchBar";
 
 const Hero = () =>{
     return(
-        <div className='flex w-full flex-col py-30 px-36'>
+        <div className='flex w-full flex-col py-30 px-36 relative'>
             <h3 className="text-5xl w-1/2 leading-[1.3] font-light mt-5">Anything’s possible when you have the talent</h3>
             <p className="text-xl py-5 mt-3 w-1/2 leading-[1.3] font-semibold">Find skilled candidates, in-demand jobs and the solutions you need to help you do your best work yet.</p>
             <div className="flex mt-8 space-x-5 w-full">
@@ -25,6 +26,10 @@ const Hero = () =>{
                     </div>
                 </div>
             </div>
+        {/*    search*/}
+           <div className="absolute w-full top-150">
+               <SearchBar />
+           </div>
         </div>
     )
 }
