@@ -6,6 +6,7 @@ import FloatingVideo from '../components/FloatingVideo';
 import Partners from '@/components/Patners';
 import Hero from "@/components/Hero";
 import ProductPitch from "@/components/ProductPitch";
+import HowItWorks from "@/components/HowItWorks";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="flex w-full min-h-screen flex-col items-center justify-between">
           <Hero />
           <ProductPitch />
+          <HowItWorks />
         {/*<ServiceCarousel />*/}
         <WhyOmil />
         <Founder />
