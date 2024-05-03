@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0 flex justify-center">
             <a href="#" className="flex items-center">
-                <img src="./footer.png" className="h-8 me-3" alt="FlowBite Logo" style={{ width: '250px', height: '100px' }}/>
+                <Image src="./footer.png" className="h-8 me-3" alt="footer logo" width={100} height={100} />
             </a>
             </div>
 
