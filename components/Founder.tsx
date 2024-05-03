@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Founder = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center space-y-4 lg:space-y-0 lg:space-x-4 lg:p-2 bg-black">
       <div className="flex-shrink-0 w-full h-full lg:mb-0 lg:w-1/3 order-2 lg:order-2">
-        <img src="./omil.png" alt="Image" className="w-full" style={{ bottom: '0' }} />
+        <Image src="./omil.png" alt="Image" className="w-full" width={100} height={100} />
       </div>
       <div className="flex-1 order-2 lg:order-1 p-8">
         <h2 className="text-3xl font-bold mb-10 text-white ">Meet the founder</h2>

@@ -127,7 +127,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <Link href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Omil Staffing Services</span>
-              <img className="h-12 w-auto" src="/logo.png" alt="Omil Staffing Services" />
+              <Image className="h-12 w-auto" src="/logo.png" alt="Omil Staffing Services" width={100} height={100} />
             </Link>
             <button
               type="button"

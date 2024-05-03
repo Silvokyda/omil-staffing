@@ -10,11 +10,11 @@ const ProductPitch = () =>{
                     done.</h3>
                 <p className="text-xl py-5 mt-3 w-3/4 leading-[1.3] font-normal">
                     Tell us about your open role, and instantly see highly skilled candidates with the in-demand skills
-                    and experience you're looking for.
+                    and experience you&apos;re looking for.
                 </p>
                 <div className="flex flex-col items-start mt-8 space-y-5 w-full">
                     <div className="flex items-center space-x-5">
-                        <p className="text-xl">I'm looking for a</p>
+                        <p className="text-xl">I&apos;m looking for a</p>
                         <div className="flex items-center space-x-3 bg-[#e1f0f5] p-3 rounded-xl">
                             <BiSearch/>
                             <input type="text" className="h-full outline-0 bg-transparent"
